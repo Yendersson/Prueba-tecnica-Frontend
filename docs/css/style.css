@@ -187,13 +187,14 @@ main{
   /* min-height: 100px; */
   /* height: 100px; */
   min-width: 170px;
-  height: 200px;
+  height: 250px;
+  padding: 1em 0;
 }
 
 
 
 .footer{
-  background: #273B63;
+  background-color: #273B63;
   padding: 1em;
 }
 
