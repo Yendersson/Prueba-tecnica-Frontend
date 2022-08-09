@@ -185,6 +185,39 @@ main{
 
 .card--card-y{
   /* min-height: 100px; */
-  height: 100px;
+  /* height: 100px; */
+  min-width: 170px;
+  height: 200px;
 }
+
+
+
+.footer{
+  background: #273B63;
+  padding: 1em;
+}
+
+.logo__picture{
+  max-width: 200px;
+  margin: auto;
+}
+
+.logo__picture img{
+  width: 100%;
+}
+
+.links--color{
+  color: white;
+}
+
+._img{
+  width: 100%;
+  height: 100%;
+}
+
+._img img{
+  height: 100%;
+  border-radius: 1em;
+}
+
 
