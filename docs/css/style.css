@@ -35,6 +35,14 @@ body{
   border: none;
 }
 
+.nav__logo{
+  max-width: 170px;
+  /* width: 50%; */
+}
+
+.nav__logo__img{
+  width: 100%;
+}
 /* ---------------------------MENU------------------------- */
 
 .modal{
@@ -223,4 +231,59 @@ main{
   border-radius: 1em;
 }
 
+@media (min-width: 1024px){
+  main{
+    width: 90%;
+    margin: auto;
+  }
+
+  .carrousel__container{
+    overflow-x: unset;
+  }
+
+  .card{
+    min-width: unset;
+  }
+
+  .first__section__flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .articulos-flex{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+
+  .card--articulos{
+    max-width: 40%;
+  }
+}
+
+@media (min-width: 1220px){
+
+  .header{
+    padding: 0.8em;
+  }
+
+  main{
+    width: 55%;
+    padding-top: 2em;
+  }
+
+  nav{
+    width: 55%;
+    margin: auto;
+  }
+
+  .nav__logo{
+    /* max-width: 300px; */
+    width: 100%;
+  }
+
+  .nav__logo__img{
+    width: 100%;
+  }
+}
 
